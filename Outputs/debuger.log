@@ -6647,3 +6647,125 @@
 2020-08-11 19:46:24,175 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register
 2020-08-11 19:46:24,359 ats-logger INFO func_requests.py-34 line：响应状态码为：405
 2020-08-11 19:46:24,362 ats-logger INFO func_requests.py-35 line：响应数据为：{"detail":"方法 “GET” 不被允许。"}
+2020-08-11 20:54:47,611 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 20:54:48,120 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 20:54:48,120 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 20:54:48,120 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'xnbqoo', 'email': '71864641@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 20:54:48,121 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 20:54:48,121 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 20:54:49,384 ats-logger INFO func_requests.py-34 line：响应状态码为：201
+2020-08-11 20:54:49,384 ats-logger INFO func_requests.py-35 line：响应数据为：{"id":113,"username":"xnbqoo","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMTMsInVzZXJuYW1lIjoieG5icW9vIiwiZXhwIjoxNTk3MjM2ODg5LCJlbWFpbCI6IjcxODY0NjQxQHFxLmNvbSJ9.zWX1TyA-1bfXQgj_RpOFMbuoSB0lQ1JEUEbT6MQBVh4"}
+2020-08-11 20:54:49,385 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 20:54:50,187 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 20:54:50,971 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 20:54:51,509 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 20:54:51,509 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 20:54:51,509 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'xliyfm', 'email': '53943477@qq.com', 'password': '123456', 'password_confirm': '123456+1'}
+2020-08-11 20:54:51,509 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 20:54:51,509 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 20:54:51,610 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 20:54:51,613 ats-logger INFO func_requests.py-35 line：响应数据为：{"non_field_errors":["两次输入密码不正确"]}
+2020-08-11 20:54:51,613 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 20:54:52,125 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 20:54:52,125 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 20:54:52,125 ats-logger INFO func_requests.py-20 line：请求数据：{'username': '', 'email': '11763212@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 20:54:52,125 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 20:54:52,126 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 20:54:52,222 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 20:54:52,225 ats-logger INFO func_requests.py-35 line：响应数据为：{"username":["该字段不能为空。"]}
+2020-08-11 20:54:52,225 ats-logger INFO test_register.py-27 line：******注册用例的后置*******
+2020-08-11 21:00:08,664 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 21:00:09,184 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:00:09,184 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:00:09,184 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'bshqia', 'email': '54162976@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:00:09,184 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:00:09,184 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:00:09,451 ats-logger INFO func_requests.py-34 line：响应状态码为：201
+2020-08-11 21:00:09,451 ats-logger INFO func_requests.py-35 line：响应数据为：{"id":114,"username":"bshqia","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMTQsInVzZXJuYW1lIjoiYnNocWlhIiwiZXhwIjoxNTk3MjM3MjA5LCJlbWFpbCI6IjU0MTYyOTc2QHFxLmNvbSJ9.DBMr7krFfUDwo400D919lAXk21atG2QrLYFDLv5B6hU"}
+2020-08-11 21:00:09,452 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 21:00:10,258 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 21:00:11,076 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 21:00:11,618 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:00:11,619 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:00:11,619 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'gfnfht', 'email': '87139551@qq.com', 'password': '123456', 'password_confirm': '123456+1'}
+2020-08-11 21:00:11,619 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:00:11,619 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:00:11,723 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:00:11,725 ats-logger INFO func_requests.py-35 line：响应数据为：{"non_field_errors":["两次输入密码不正确"]}
+2020-08-11 21:00:11,726 ats-logger INFO test_register.py-20 line：******注册用例的前置*******
+2020-08-11 21:00:12,279 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:00:12,279 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:00:12,279 ats-logger INFO func_requests.py-20 line：请求数据：{'username': '', 'email': '45971164@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:00:12,279 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:00:12,279 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:00:12,374 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:00:12,376 ats-logger INFO func_requests.py-35 line：响应数据为：{"username":["该字段不能为空。"]}
+2020-08-11 21:00:12,377 ats-logger INFO test_register.py-27 line：******注册用例的后置*******
+2020-08-11 21:27:23,569 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:27:24,082 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:27:24,083 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:27:24,083 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'sxffic', 'email': '96644241@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:27:24,083 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:27:24,083 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:27:25,362 ats-logger INFO func_requests.py-34 line：响应状态码为：201
+2020-08-11 21:27:25,363 ats-logger INFO func_requests.py-35 line：响应数据为：{"id":126,"username":"sxffic","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjYsInVzZXJuYW1lIjoic3hmZmljIiwiZXhwIjoxNTk3MjM4ODQ1LCJlbWFpbCI6Ijk2NjQ0MjQxQHFxLmNvbSJ9._woK2pB4NA8I9hajWlQl_lweRI5Wo7pBGRDlJ367H7w"}
+2020-08-11 21:27:25,363 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:27:26,150 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:27:26,918 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:27:27,437 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:27:27,437 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:27:27,437 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'irpouk', 'email': '73114423@qq.com', 'password': '123456', 'password_confirm': '123456+1'}
+2020-08-11 21:27:27,437 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:27:27,438 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:27:27,534 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:27:27,537 ats-logger INFO func_requests.py-35 line：响应数据为：{"non_field_errors":["两次输入密码不正确"]}
+2020-08-11 21:27:27,538 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:27:28,063 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:27:28,063 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:27:28,063 ats-logger INFO func_requests.py-20 line：请求数据：{'username': '', 'email': '72632668@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:27:28,064 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:27:28,064 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:27:28,161 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:27:28,163 ats-logger INFO func_requests.py-35 line：响应数据为：{"username":["该字段不能为空。"]}
+2020-08-11 21:27:28,163 ats-logger INFO test_register.py-28 line：******注册用例的后置*******
+2020-08-11 21:28:16,139 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:28:16,670 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:28:16,670 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:28:16,671 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'pivfbh', 'email': '11516951@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:28:16,671 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:28:16,671 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:28:16,939 ats-logger INFO func_requests.py-34 line：响应状态码为：201
+2020-08-11 21:28:16,940 ats-logger INFO func_requests.py-35 line：响应数据为：{"id":127,"username":"pivfbh","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjcsInVzZXJuYW1lIjoicGl2ZmJoIiwiZXhwIjoxNTk3MjM4ODk2LCJlbWFpbCI6IjExNTE2OTUxQHFxLmNvbSJ9.42Bhs-lDkdPjNeZ1b0uvVNJyc2x444aJGZ9g-ZKjcb0"}
+2020-08-11 21:28:16,940 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:28:17,758 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:28:17,759 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:28:17,759 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'lemon1', 'email': '67235629@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:28:17,759 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:28:17,759 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:28:17,856 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:28:17,859 ats-logger INFO func_requests.py-35 line：响应数据为：{"username":["已存在一位使用该名字的用户。"]}
+2020-08-11 21:28:17,859 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:28:18,655 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:28:18,656 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:28:18,656 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'xaxfps', 'email': 'lemon100@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:28:18,656 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:28:18,656 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:28:18,755 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:28:18,757 ats-logger INFO func_requests.py-35 line：响应数据为：{"email":["此邮箱已注册"]}
+2020-08-11 21:28:18,757 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:28:19,286 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:28:19,287 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:28:19,287 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'rjjaac', 'email': '29134672@qq.com', 'password': '123456', 'password_confirm': '123456+1'}
+2020-08-11 21:28:19,287 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:28:19,287 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:28:19,386 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:28:19,388 ats-logger INFO func_requests.py-35 line：响应数据为：{"non_field_errors":["两次输入密码不正确"]}
+2020-08-11 21:28:19,388 ats-logger INFO test_register.py-21 line：******注册用例的前置*******
+2020-08-11 21:28:19,910 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-11 21:28:19,910 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-11 21:28:19,910 ats-logger INFO func_requests.py-20 line：请求数据：{'username': '', 'email': '79452347@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-11 21:28:19,911 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-11 21:28:19,911 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-11 21:28:20,006 ats-logger INFO func_requests.py-34 line：响应状态码为：400
+2020-08-11 21:28:20,007 ats-logger INFO func_requests.py-35 line：响应数据为：{"username":["该字段不能为空。"]}
+2020-08-11 21:28:20,007 ats-logger INFO test_register.py-28 line：******注册用例的后置*******

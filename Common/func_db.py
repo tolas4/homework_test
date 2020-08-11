@@ -37,3 +37,14 @@ class ConnDB:
     def close_db(self):
         self.cur.close()
         self.conn.close()
+
+
+# class ENV:
+#     pass
+# db = ConnDB()
+#
+# ss = db.select_one("SELECT username FROM auth_user WHERE id=1")
+# for key, value in ss.items():
+#     setattr(ENV, key, value)
+# clear_EnvData()
+# print(ENV.__dict__)

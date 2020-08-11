@@ -29,17 +29,20 @@ def req_data_by_re(data):
     return data
 
 
-# def clear_EnvData():
-#     for item
+def clear_EnvData():
+    datas= dict(EnvData.__dict__.items())
+    for key in datas:
+        if key.startswith("__"):
+            pass
+        else:
+            delattr(EnvData, key)
 
-if __name__ == '__main__':
-    case = {
-        "method": "POST",
-        "url": "http://api.lemonban.com/futureloan/#phone#/member/register",
-        "request_data": '{"mobile_phone": "#phone#", "pwd": "123456789", "type": 1, "reg_name": "美丽可爱的小简"}'
-    }
-
-    rep_data(case, "#phone#", "1234")
-    print(case)
-
-case = {'id': 1, 'title': '注册成功', 'method': 'post', 'url': '/user/register/ ', 'request_data': '{"username": "#username#", "email":"#email#", "password":"#password#", "password_confirm":"#password#"}', 'expected_code': 201, 'check_sql': None}
+# if __name__ == '__main__':
+#     case = {
+#         "method": "POST",
+#         "url": "http://api.lemonban.com/futureloan/#phone#/member/register",
+#         "request_data": '{"mobile_phone": "#phone#", "pwd": "123456789", "type": 1, "reg_name": "美丽可爱的小简"}'
+#     }
+#
+#     rep_data(case, "#phone#", "1234")
+#     print(case)
