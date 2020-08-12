@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d44a7192-1f44-4cea-8da6-b3ef3e9f9fe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/func_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/func_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/func_rep_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/func_rep_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/func_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/func_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outputs/debuger.log" beforeDir="false" afterPath="$PROJECT_DIR$/Outputs/debuger.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outputs/reports.html/report_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_register.py" afterDir="false" />
-    </list>
+    <list default="true" id="d44a7192-1f44-4cea-8da6-b3ef3e9f9fe9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
