@@ -49,6 +49,18 @@ def new_password():
     return pwd
 
 
+def get_proname():
+    db = ConnDB()
+    count = 1
+    while count != 0:
+        proname = __new_name()
+        proname = "这是一个{}的项目".format(proname)
+        count = db.get_acount("SELECT * FROM tb_projects WHERE name='{}'".format(proname))
+    db.close_db()
+    return proname
+
+
+
 # ss = get_username()
 # print(ss)
 # aa = get_email()

@@ -49,13 +49,13 @@ def __request_url(url):
         return base_url + "/" + url
 
 
-# if __name__ == '__main__':
-#     login_url = "/user/register"
-#     login_datas = {"username": "axmaki", "email":"23526624@qq.com", "password":"123456", "password_confirm":"123456"}
-#     resp = send_request("POST", login_url, data=login_datas)
-#     # token = resp.json()["data"]["token_info"]["token"]
-#
-#     # recharge_url = "http://api.lemonban.com/futureloan/member/recharge"
-#     # recharge_data = {"member_id": 200119, "amount": 2000}
-#     # resp = send_request("POST",recharge_url,recharge_data,token)
-#     print(resp)
+if __name__ == '__main__':
+    login_url = "user/register/"
+    login_datas = {"username": "axmaki", "email":"23526624@qq.com", "password":"123456", "password_confirm":"123456"}
+    resp = send_request("POST", login_url, data=login_datas)
+    # token = resp.json()["data"]["token_info"]["token"]
+
+    # recharge_url = "http://api.lemonban.com/futureloan/member/recharge"
+    # recharge_data = {"member_id": 200119, "amount": 2000}
+    # resp = send_request("POST",recharge_url,recharge_data,token)
+    print(resp.json())
