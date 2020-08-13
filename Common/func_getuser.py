@@ -49,8 +49,29 @@ def new_password():
     return pwd
 
 
-# ss = get_username()
-# print(ss)
+def get_proname():
+    db = ConnDB()
+    count = 1
+    while count != 0:
+        proname = __new_name()
+        proname = "这是一个{}的项目".format(proname)
+        count = db.get_acount("SELECT * FROM tb_projects WHERE name='{}'".format(proname))
+    db.close_db()
+    return proname
+
+
+def get_interfacesname():
+    db = ConnDB()
+    count = 1
+    while count != 0:
+        interfacesname = __new_name()
+        interfacesname = "接口-{}".format(interfacesname)
+        count = db.get_acount("SELECT * FROM tb_interfaces WHERE name='{}'".format(interfacesname))
+    db.close_db()
+    return interfacesname
+
+ss = get_interfacesname()
+print(ss)
 # aa = get_email()
 # print(aa)
 # db = ConnDB()

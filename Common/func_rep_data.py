@@ -19,13 +19,13 @@ def req_data_by_re(data):
     if res:
         for item in res:
             try:
-                value = conf.get("re_data", item)
+                val = conf.get("re_data", item)
             except:
                 try:
-                    value = getattr(EnvData, item)
+                    val = getattr(EnvData, item)
                 except AttributeError:
                     continue
-            data = data.replace("#{}#".format(item), value)
+            data = data.replace("#{}#".format(item), val)
     return data
 
 
@@ -37,12 +37,8 @@ def clear_EnvData():
         else:
             delattr(EnvData, key)
 
-# if __name__ == '__main__':
-#     case = {
-#         "method": "POST",
-#         "url": "http://api.lemonban.com/futureloan/#phone#/member/register",
-#         "request_data": '{"mobile_phone": "#phone#", "pwd": "123456789", "type": 1, "reg_name": "美丽可爱的小简"}'
-#     }
-#
-#     rep_data(case, "#phone#", "1234")
-#     print(case)
+if __name__ == '__main__':
+    case = {"name": "这是一个'#name#'的项目", "leader": "可优'#name#'","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+    setattr(EnvData, "name", "lalalalal")
+    case = req_data_by_re(case)
+    print(case)
