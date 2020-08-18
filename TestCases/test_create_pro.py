@@ -35,3 +35,4 @@ class TestCreatePro(unittest.TestCase):
         request_data = req_data_by_re(case["request_data"])
         response = send_request(case["method"], case["url"], request_data, token=EnvData.token)
         self.assertEqual(response.status_code, case["expected"])
+

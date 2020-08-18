@@ -7495,3 +7495,392 @@
 2020-08-12 15:29:05,035 ats-logger INFO func_requests.py-32 line：响应状态码为：400
 2020-08-12 15:29:05,037 ats-logger INFO func_requests.py-33 line：响应数据为：{"username":["该字段不能为空。"]}
 2020-08-12 15:29:05,037 ats-logger INFO test_register.py-28 line：******注册用例的后置*******
+2020-08-15 16:02:03,566 ats-logger INFO test_interfaces.py-19 line：********创建项目用例的前置*********
+2020-08-15 16:02:04,299 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:02:04,300 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:02:04,300 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'nebenf', 'email': '85219946@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:02:04,300 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:02:04,300 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:02:06,041 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:02:06,041 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":95,"username":"nebenf","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5NSwidXNlcm5hbWUiOiJuZWJlbmYiLCJleHAiOjE1OTc1NjQ5MjUsImVtYWlsIjoiODUyMTk5NDZAcXEuY29tIn0.SOcAyuY5zwOhV26vB8akGIE1HkRU316dO9EvGnBkXuc"}
+2020-08-15 16:02:07,088 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:02:07,088 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5NSwidXNlcm5hbWUiOiJuZWJlbmYiLCJleHAiOjE1OTc1NjQ5MjUsImVtYWlsIjoiODUyMTk5NDZAcXEuY29tIn0.SOcAyuY5zwOhV26vB8akGIE1HkRU316dO9EvGnBkXuc'}
+2020-08-15 16:02:07,088 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '#name#', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:02:07,088 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:02:07,088 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:02:07,188 ats-logger INFO func_requests.py-32 line：响应状态码为：400
+2020-08-15 16:02:07,190 ats-logger INFO func_requests.py-33 line：响应数据为：{"name":["具有 项目名称 的 项目信息 已存在。"]}
+2020-08-15 16:04:04,363 ats-logger INFO test_create_pro.py-18 line：********创建项目用例的前置*********
+2020-08-15 16:04:05,174 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:04:05,175 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:04:05,175 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'caanga', 'email': '72438323@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:04:05,175 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:04:05,175 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:04:05,405 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:04:05,405 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":96,"username":"caanga","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5NiwidXNlcm5hbWUiOiJjYWFuZ2EiLCJleHAiOjE1OTc1NjUwNDUsImVtYWlsIjoiNzI0MzgzMjNAcXEuY29tIn0.q9SSzkFMpdQl9i2fEOIiY9TcPyfR7EDLFsD3HBjOxy4"}
+2020-08-15 16:04:05,891 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:04:05,892 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5NiwidXNlcm5hbWUiOiJjYWFuZ2EiLCJleHAiOjE1OTc1NjUwNDUsImVtYWlsIjoiNzI0MzgzMjNAcXEuY29tIn0.q9SSzkFMpdQl9i2fEOIiY9TcPyfR7EDLFsD3HBjOxy4'}
+2020-08-15 16:04:05,892 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个icgfsf的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-15 16:04:05,892 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:04:05,892 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:04:06,004 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:04:06,007 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":140,"create_time":"2020-08-15T16:04:05.960508+08:00","name":"这是一个icgfsf的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-15 16:04:06,008 ats-logger INFO test_create_pro.py-28 line：*******创建项目用例的后置**********
+2020-08-15 16:04:40,075 ats-logger INFO test_interfaces.py-19 line：********创建项目用例的前置*********
+2020-08-15 16:04:40,824 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:04:40,824 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:04:40,825 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'imomdo', 'email': '15437782@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:04:40,825 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:04:40,825 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:04:41,266 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:04:41,266 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":97,"username":"imomdo","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5NywidXNlcm5hbWUiOiJpbW9tZG8iLCJleHAiOjE1OTc1NjUwODEsImVtYWlsIjoiMTU0Mzc3ODJAcXEuY29tIn0.X47UBnl36Y31Fv_YIGpVRBYWTpW2rLSw0ym6UFedTds"}
+2020-08-15 16:04:41,530 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:04:41,530 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5NywidXNlcm5hbWUiOiJpbW9tZG8iLCJleHAiOjE1OTc1NjUwODEsImVtYWlsIjoiMTU0Mzc3ODJAcXEuY29tIn0.X47UBnl36Y31Fv_YIGpVRBYWTpW2rLSw0ym6UFedTds'}
+2020-08-15 16:04:41,530 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '#name#', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:04:41,531 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:04:41,531 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:04:41,709 ats-logger INFO func_requests.py-32 line：响应状态码为：400
+2020-08-15 16:04:41,712 ats-logger INFO func_requests.py-33 line：响应数据为：{"name":["具有 项目名称 的 项目信息 已存在。"]}
+2020-08-15 16:05:28,226 ats-logger INFO test_create_pro.py-18 line：********创建项目用例的前置*********
+2020-08-15 16:05:29,270 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:05:29,271 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:05:29,271 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'pwnwmb', 'email': '71447894@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:05:29,271 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:05:29,271 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:05:29,802 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:05:29,802 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":98,"username":"pwnwmb","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5OCwidXNlcm5hbWUiOiJwd253bWIiLCJleHAiOjE1OTc1NjUxMjksImVtYWlsIjoiNzE0NDc4OTRAcXEuY29tIn0.P2xT4DuGxEPuZkQlAxNT9F-rELScScaP_GeYR2bDpJI"}
+2020-08-15 16:05:30,225 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:05:30,226 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5OCwidXNlcm5hbWUiOiJwd253bWIiLCJleHAiOjE1OTc1NjUxMjksImVtYWlsIjoiNzE0NDc4OTRAcXEuY29tIn0.P2xT4DuGxEPuZkQlAxNT9F-rELScScaP_GeYR2bDpJI'}
+2020-08-15 16:05:30,226 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个dtphae的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-15 16:05:30,226 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:05:30,226 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:05:30,549 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:05:30,554 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":143,"create_time":"2020-08-15T16:05:30.311548+08:00","name":"这是一个dtphae的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-15 16:05:30,554 ats-logger INFO test_create_pro.py-28 line：*******创建项目用例的后置**********
+2020-08-15 16:06:35,772 ats-logger INFO test_create_pro.py-18 line：********创建项目用例的前置*********
+2020-08-15 16:06:36,296 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:06:36,296 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:06:36,296 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'rganxq', 'email': '26342288@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:06:36,296 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:06:36,297 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:06:36,521 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:06:36,522 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":100,"username":"rganxq","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAsInVzZXJuYW1lIjoicmdhbnhxIiwiZXhwIjoxNTk3NTY1MTk2LCJlbWFpbCI6IjI2MzQyMjg4QHFxLmNvbSJ9.S8N3YIw7AHZja5fvKKnZDf7J9h10qnch--KK7FRHN4s"}
+2020-08-15 16:06:36,792 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:06:36,792 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAsInVzZXJuYW1lIjoicmdhbnhxIiwiZXhwIjoxNTk3NTY1MTk2LCJlbWFpbCI6IjI2MzQyMjg4QHFxLmNvbSJ9.S8N3YIw7AHZja5fvKKnZDf7J9h10qnch--KK7FRHN4s'}
+2020-08-15 16:06:36,793 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个piyzdi的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-15 16:06:36,793 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:06:36,793 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:06:36,900 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:06:36,904 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":144,"create_time":"2020-08-15T16:06:36.852696+08:00","name":"这是一个piyzdi的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-15 16:06:36,905 ats-logger INFO test_create_pro.py-28 line：*******创建项目用例的后置**********
+2020-08-15 16:07:08,429 ats-logger INFO test_interfaces.py-19 line：********创建项目用例的前置*********
+2020-08-15 16:07:08,963 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:07:08,963 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:07:08,963 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'ueshix', 'email': '63644152@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:07:08,964 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:07:08,964 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:07:09,188 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:07:09,188 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":101,"username":"ueshix","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDEsInVzZXJuYW1lIjoidWVzaGl4IiwiZXhwIjoxNTk3NTY1MjI5LCJlbWFpbCI6IjYzNjQ0MTUyQHFxLmNvbSJ9.U6kH9KScR3VQgagNT0CVRjhE1KHKBxIx-eStvwvWud0"}
+2020-08-15 16:07:09,452 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:07:09,452 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDEsInVzZXJuYW1lIjoidWVzaGl4IiwiZXhwIjoxNTk3NTY1MjI5LCJlbWFpbCI6IjYzNjQ0MTUyQHFxLmNvbSJ9.U6kH9KScR3VQgagNT0CVRjhE1KHKBxIx-eStvwvWud0'}
+2020-08-15 16:07:09,452 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '#name#', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:07:09,453 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:07:09,453 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:07:09,553 ats-logger INFO func_requests.py-32 line：响应状态码为：400
+2020-08-15 16:07:09,556 ats-logger INFO func_requests.py-33 line：响应数据为：{"name":["具有 项目名称 的 项目信息 已存在。"]}
+2020-08-15 16:07:53,650 ats-logger INFO test_interfaces.py-19 line：********创建项目用例的前置*********
+2020-08-15 16:07:54,163 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:07:54,163 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:07:54,164 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'uytkvu', 'email': '93783697@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:07:54,164 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:07:54,164 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:07:54,399 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:07:54,400 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":102,"username":"uytkvu","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDIsInVzZXJuYW1lIjoidXl0a3Z1IiwiZXhwIjoxNTk3NTY1Mjc0LCJlbWFpbCI6IjkzNzgzNjk3QHFxLmNvbSJ9.Q-BC7xUaLMwuZGhaQrS_mEPUVv6r0mQqxa0zE5_T3k8"}
+2020-08-15 16:07:54,675 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:07:54,676 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDIsInVzZXJuYW1lIjoidXl0a3Z1IiwiZXhwIjoxNTk3NTY1Mjc0LCJlbWFpbCI6IjkzNzgzNjk3QHFxLmNvbSJ9.Q-BC7xUaLMwuZGhaQrS_mEPUVv6r0mQqxa0zE5_T3k8'}
+2020-08-15 16:07:54,676 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '#name#', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:07:54,677 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:07:54,677 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:07:54,775 ats-logger INFO func_requests.py-32 line：响应状态码为：400
+2020-08-15 16:07:54,779 ats-logger INFO func_requests.py-33 line：响应数据为：{"name":["具有 项目名称 的 项目信息 已存在。"]}
+2020-08-15 16:08:46,977 ats-logger INFO test_interfaces.py-20 line：********创建项目用例的前置*********
+2020-08-15 16:08:47,513 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:08:47,513 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:08:47,514 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'wzalwn', 'email': '12851764@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:08:47,514 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:08:47,514 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:08:47,751 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:08:47,752 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":103,"username":"wzalwn","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDMsInVzZXJuYW1lIjoid3phbHduIiwiZXhwIjoxNTk3NTY1MzI3LCJlbWFpbCI6IjEyODUxNzY0QHFxLmNvbSJ9.mFJ6ZU93y7TxyK5IWWijmmfZM74hH0ZrFyLXt-bvL6M"}
+2020-08-15 16:08:48,024 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:08:48,024 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDMsInVzZXJuYW1lIjoid3phbHduIiwiZXhwIjoxNTk3NTY1MzI3LCJlbWFpbCI6IjEyODUxNzY0QHFxLmNvbSJ9.mFJ6ZU93y7TxyK5IWWijmmfZM74hH0ZrFyLXt-bvL6M'}
+2020-08-15 16:08:48,024 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '#name#', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:08:48,025 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:08:48,025 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:08:48,127 ats-logger INFO func_requests.py-32 line：响应状态码为：400
+2020-08-15 16:08:48,130 ats-logger INFO func_requests.py-33 line：响应数据为：{"name":["具有 项目名称 的 项目信息 已存在。"]}
+2020-08-15 16:09:57,195 ats-logger INFO test_interfaces.py-20 line：********创建项目用例的前置*********
+2020-08-15 16:09:57,730 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:09:57,731 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:09:57,731 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'qooycx', 'email': '15499267@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:09:57,731 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:09:57,732 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:09:58,016 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:09:58,016 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":104,"username":"qooycx","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDQsInVzZXJuYW1lIjoicW9veWN4IiwiZXhwIjoxNTk3NTY1Mzk3LCJlbWFpbCI6IjE1NDk5MjY3QHFxLmNvbSJ9.jqgtmDC5InUkaYfLEBPjQU6nmme4scEKzF04tQ-Wzc8"}
+2020-08-15 16:09:58,285 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:09:58,286 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDQsInVzZXJuYW1lIjoicW9veWN4IiwiZXhwIjoxNTk3NTY1Mzk3LCJlbWFpbCI6IjE1NDk5MjY3QHFxLmNvbSJ9.jqgtmDC5InUkaYfLEBPjQU6nmme4scEKzF04tQ-Wzc8'}
+2020-08-15 16:09:58,287 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '这是一个vtspdn的项目', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:09:58,288 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:09:58,288 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:09:58,393 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:09:58,398 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":145,"create_time":"2020-08-15T16:09:58.343431+08:00","name":"这是一个vtspdn的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-15 16:10:58,116 ats-logger INFO test_interfaces.py-20 line：********创建项目用例的前置*********
+2020-08-15 16:10:58,631 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:10:58,631 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:10:58,631 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'tixyny', 'email': '31574819@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:10:58,631 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:10:58,632 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:10:58,855 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:10:58,855 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":106,"username":"tixyny","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDYsInVzZXJuYW1lIjoidGl4eW55IiwiZXhwIjoxNTk3NTY1NDU4LCJlbWFpbCI6IjMxNTc0ODE5QHFxLmNvbSJ9.xRHCaZbOXlbgDsUltKzzQSk6uBOyis_Z_FvocjTbj-0"}
+2020-08-15 16:10:59,112 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:10:59,112 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDYsInVzZXJuYW1lIjoidGl4eW55IiwiZXhwIjoxNTk3NTY1NDU4LCJlbWFpbCI6IjMxNTc0ODE5QHFxLmNvbSJ9.xRHCaZbOXlbgDsUltKzzQSk6uBOyis_Z_FvocjTbj-0'}
+2020-08-15 16:10:59,112 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '这是一个psbmqm的项目', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:10:59,113 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:10:59,113 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:10:59,218 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:10:59,222 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":147,"create_time":"2020-08-15T16:10:59.177149+08:00","name":"这是一个psbmqm的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-15 16:11:35,949 ats-logger INFO test_interfaces.py-20 line：********创建项目用例的前置*********
+2020-08-15 16:11:36,499 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:11:36,500 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-15 16:11:36,500 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'hhkmrn', 'email': '12594641@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-15 16:11:36,500 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:11:36,500 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-15 16:11:36,737 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:11:36,738 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":108,"username":"hhkmrn","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDgsInVzZXJuYW1lIjoiaGhrbXJuIiwiZXhwIjoxNTk3NTY1NDk2LCJlbWFpbCI6IjEyNTk0NjQxQHFxLmNvbSJ9.19twIZRlnCfBtkCxIK3gH3-jBjvquQX0D-FLZ9kfGQs"}
+2020-08-15 16:11:37,016 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:11:37,017 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDgsInVzZXJuYW1lIjoiaGhrbXJuIiwiZXhwIjoxNTk3NTY1NDk2LCJlbWFpbCI6IjEyNTk0NjQxQHFxLmNvbSJ9.19twIZRlnCfBtkCxIK3gH3-jBjvquQX0D-FLZ9kfGQs'}
+2020-08-15 16:11:37,017 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '这是一个jrbxmq的项目', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-15 16:11:37,017 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:11:37,017 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-15 16:11:37,136 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:11:37,139 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":150,"create_time":"2020-08-15T16:11:37.108483+08:00","name":"这是一个jrbxmq的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-15 16:11:37,411 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-15 16:11:37,411 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDgsInVzZXJuYW1lIjoiaGhrbXJuIiwiZXhwIjoxNTk3NTY1NDk2LCJlbWFpbCI6IjEyNTk0NjQxQHFxLmNvbSJ9.19twIZRlnCfBtkCxIK3gH3-jBjvquQX0D-FLZ9kfGQs'}
+2020-08-15 16:11:37,411 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "接口-hajrrf", "tester": "KeYou", "project_id": 150, "desc": "这是一个描述"}
+2020-08-15 16:11:37,412 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-15 16:11:37,412 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/interfaces/
+2020-08-15 16:11:37,519 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-15 16:11:37,523 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":72,"name":"接口-hajrrf","tester":"KeYou","project":"这是一个jrbxmq的项目","project_id":150,"desc":"这是一个描述","create_time":"2020-08-15T16:11:37.493199+08:00"}
+2020-08-18 11:07:37,408 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 11:07:37,409 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 11:07:37,409 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'axmaki', 'email': '23526624@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-18 11:07:37,409 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 11:07:37,409 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 11:07:38,922 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 11:07:38,923 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":11,"username":"axmaki","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMSwidXNlcm5hbWUiOiJheG1ha2kiLCJleHAiOjE1OTc4MDY0NTgsImVtYWlsIjoiMjM1MjY2MjRAcXEuY29tIn0.bQd55V2uJutsqPfB64NgKGmnbEdjSisdbJ7W79ruyG4"}
+2020-08-18 11:55:27,345 ats-logger INFO test_create_pro.py-18 line：********创建项目用例的前置*********
+2020-08-18 11:55:27,864 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 11:55:27,864 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 11:55:27,865 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'wncskl', 'email': '87333337@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-18 11:55:27,865 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 11:55:27,865 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 11:55:28,113 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 11:55:28,114 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":14,"username":"wncskl","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNCwidXNlcm5hbWUiOiJ3bmNza2wiLCJleHAiOjE1OTc4MDkzMjgsImVtYWlsIjoiODczMzMzMzdAcXEuY29tIn0.cvKsActjP4kLywDIRlg0Cg_7AlnaNQwk7pYQaFTeCTk"}
+2020-08-18 11:55:28,114 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 11:55:28,383 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 11:55:28,384 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNCwidXNlcm5hbWUiOiJ3bmNza2wiLCJleHAiOjE1OTc4MDkzMjgsImVtYWlsIjoiODczMzMzMzdAcXEuY29tIn0.cvKsActjP4kLywDIRlg0Cg_7AlnaNQwk7pYQaFTeCTk'}
+2020-08-18 11:55:28,384 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个qptwbx的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 11:55:28,384 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 11:55:28,384 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 11:55:28,487 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 11:55:28,489 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":53,"create_time":"2020-08-18T11:55:28.444574+08:00","name":"这是一个qptwbx的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-18 11:55:28,490 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 11:55:28,491 ats-logger INFO test_create_pro.py-28 line：*******创建项目用例的后置**********
+2020-08-18 13:55:54,577 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 13:55:55,303 ats-logger INFO test_cre_cases.py-31 line：********单个用例结束*******
+2020-08-18 13:56:23,445 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 13:56:24,194 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 13:56:24,194 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 13:56:24,195 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "jvfqbt", "email":"58685654@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 13:56:24,196 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 13:56:24,196 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 13:56:25,495 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 13:56:25,496 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":17,"username":"jvfqbt","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNywidXNlcm5hbWUiOiJqdmZxYnQiLCJleHAiOjE1OTc4MTY1ODUsImVtYWlsIjoiNTg2ODU2NTRAcXEuY29tIn0.iqqEEzkwP4Qz1Ysxgl0w4CQ13y0UEWLl3SI3UDFZXXI"}
+2020-08-18 13:56:25,496 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 13:56:56,541 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 13:56:57,199 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 13:56:57,200 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 13:56:57,200 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "dfhmmq", "email":"58186925@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 13:56:57,201 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 13:56:57,201 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 13:56:57,626 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 13:56:57,626 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":18,"username":"dfhmmq","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxOCwidXNlcm5hbWUiOiJkZmhtbXEiLCJleHAiOjE1OTc4MTY2MTcsImVtYWlsIjoiNTgxODY5MjVAcXEuY29tIn0.5L5FhwGWQifYbCE9cTTiH7VB52n0NNN1uy8Zd7_lse8"}
+2020-08-18 13:56:57,627 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 13:56:57,627 ats-logger INFO test_cre_cases.py-31 line：********单个用例结束*******
+2020-08-18 13:56:57,634 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 13:56:57,634 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 13:56:57,634 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "#pro_name#", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 13:56:57,635 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 13:56:57,635 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 13:56:57,745 ats-logger INFO func_requests.py-32 line：响应状态码为：401
+2020-08-18 13:56:57,748 ats-logger INFO func_requests.py-33 line：响应数据为：{"detail":"身份认证信息未提供。"}
+2020-08-18 13:56:57,749 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 13:56:57,749 ats-logger INFO test_cre_cases.py-31 line：********单个用例结束*******
+2020-08-18 13:56:57,751 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 13:56:57,751 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 13:56:57,751 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "#in_name#", "tester": "KeYou", "project_id": #pro_id#, "desc": "这是一个描述"}
+2020-08-18 13:56:57,752 ats-logger INFO test_cre_cases.py-31 line：********单个用例结束*******
+2020-08-18 13:57:59,483 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 13:58:00,093 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 13:58:00,093 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 13:58:00,093 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "imcoky", "email":"79433672@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 13:58:00,094 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 13:58:00,095 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 13:58:00,337 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 13:58:00,338 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":19,"username":"imcoky","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxOSwidXNlcm5hbWUiOiJpbWNva3kiLCJleHAiOjE1OTc4MTY2ODAsImVtYWlsIjoiNzk0MzM2NzJAcXEuY29tIn0.Ctc5etROzIAhNjaDINJ2ZN2Ew-VLWhX6JvCv3bej7a4"}
+2020-08-18 13:58:00,338 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 13:59:03,885 ats-logger INFO test_cre_cases.py-31 line：********单个用例结束*******
+2020-08-18 13:59:36,702 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 13:59:36,703 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxOSwidXNlcm5hbWUiOiJpbWNva3kiLCJleHAiOjE1OTc4MTY2ODAsImVtYWlsIjoiNzk0MzM2NzJAcXEuY29tIn0.Ctc5etROzIAhNjaDINJ2ZN2Ew-VLWhX6JvCv3bej7a4'}
+2020-08-18 13:59:36,703 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "#pro_name#", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 13:59:36,703 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 13:59:36,703 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 13:59:36,811 ats-logger INFO func_requests.py-32 line：响应状态码为：400
+2020-08-18 13:59:36,818 ats-logger INFO func_requests.py-33 line：响应数据为：{"name":["具有 项目名称 的 项目信息 已存在。"]}
+2020-08-18 13:59:36,821 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:08:16,756 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 14:08:17,309 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:08:17,310 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 14:08:17,310 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "gecheu", "email":"63866691@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 14:08:17,311 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:08:17,311 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 14:08:17,547 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:08:17,547 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":20,"username":"gecheu","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMCwidXNlcm5hbWUiOiJnZWNoZXUiLCJleHAiOjE1OTc4MTcyOTcsImVtYWlsIjoiNjM4NjY2OTFAcXEuY29tIn0.YMrR4oxzHIXbQBNc-paY39BOdBc0vzCCyBT71XvgtJw"}
+2020-08-18 14:08:17,547 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:08:26,096 ats-logger INFO test_cre_cases.py-31 line：********单个用例结束*******
+2020-08-18 14:08:45,973 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 14:08:46,529 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:08:46,530 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 14:08:46,530 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "yrrtym", "email":"61428197@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 14:08:46,531 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:08:46,531 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 14:08:46,766 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:08:46,767 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":21,"username":"yrrtym","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMSwidXNlcm5hbWUiOiJ5cnJ0eW0iLCJleHAiOjE1OTc4MTczMjYsImVtYWlsIjoiNjE0MjgxOTdAcXEuY29tIn0.FEp79-9PTa_9i6IbFl7u-7xc5J7nOwDlX9fEH-DeBJU"}
+2020-08-18 14:08:46,767 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:08:51,611 ats-logger INFO test_cre_cases.py-31 line：********单个用例结束*******
+2020-08-18 14:09:23,619 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:09:23,620 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMSwidXNlcm5hbWUiOiJ5cnJ0eW0iLCJleHAiOjE1OTc4MTczMjYsImVtYWlsIjoiNjE0MjgxOTdAcXEuY29tIn0.FEp79-9PTa_9i6IbFl7u-7xc5J7nOwDlX9fEH-DeBJU'}
+2020-08-18 14:09:23,620 ats-logger INFO func_requests.py-20 line：请求数据：{"name": get_proname(), "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 14:22:01,858 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 14:22:03,449 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:22:03,449 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 14:22:03,449 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "dbobrx", "email":"52736941@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 14:22:03,450 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:22:03,450 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 14:22:03,716 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:22:03,717 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":22,"username":"dbobrx","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMiwidXNlcm5hbWUiOiJkYm9icngiLCJleHAiOjE1OTc4MTgxMjMsImVtYWlsIjoiNTI3MzY5NDFAcXEuY29tIn0._tZ7RXo6kTlKyYqhP5i7U7lo6kkpxTn5x_vW5IV_rTA"}
+2020-08-18 14:22:03,717 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:22:03,719 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:22:03,720 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:22:03,720 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMiwidXNlcm5hbWUiOiJkYm9icngiLCJleHAiOjE1OTc4MTgxMjMsImVtYWlsIjoiNTI3MzY5NDFAcXEuY29tIn0._tZ7RXo6kTlKyYqhP5i7U7lo6kkpxTn5x_vW5IV_rTA'}
+2020-08-18 14:22:03,720 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个ntcjxv的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 14:22:03,720 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:22:03,721 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 14:22:03,822 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:22:03,826 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":65,"create_time":"2020-08-18T14:22:03.788649+08:00","name":"这是一个ntcjxv的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-18 14:22:03,828 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:22:03,828 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:22:03,833 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:22:03,833 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMiwidXNlcm5hbWUiOiJkYm9icngiLCJleHAiOjE1OTc4MTgxMjMsImVtYWlsIjoiNTI3MzY5NDFAcXEuY29tIn0._tZ7RXo6kTlKyYqhP5i7U7lo6kkpxTn5x_vW5IV_rTA'}
+2020-08-18 14:22:03,833 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "接口-jditsn", "tester": "KeYou", "project_id": #pro_id#, "desc": "这是一个描述"}
+2020-08-18 14:22:03,833 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:22:29,156 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 14:22:31,367 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:22:31,367 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 14:22:31,368 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "axafem", "email":"48234925@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 14:22:31,368 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:22:31,368 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 14:22:31,615 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:22:31,616 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":23,"username":"axafem","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywidXNlcm5hbWUiOiJheGFmZW0iLCJleHAiOjE1OTc4MTgxNTEsImVtYWlsIjoiNDgyMzQ5MjVAcXEuY29tIn0.x5nDnPQdgts8s2GZDNbHvojDSWPlIS9oRYTpKzVyNUA"}
+2020-08-18 14:22:31,616 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:22:31,619 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:22:31,620 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:22:31,620 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywidXNlcm5hbWUiOiJheGFmZW0iLCJleHAiOjE1OTc4MTgxNTEsImVtYWlsIjoiNDgyMzQ5MjVAcXEuY29tIn0.x5nDnPQdgts8s2GZDNbHvojDSWPlIS9oRYTpKzVyNUA'}
+2020-08-18 14:22:31,620 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个yjddcc的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 14:22:31,620 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:22:31,620 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 14:22:31,944 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:22:31,948 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":66,"create_time":"2020-08-18T14:22:31.910963+08:00","name":"这是一个yjddcc的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-18 14:22:31,951 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:22:31,951 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:22:31,952 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:23:21,690 ats-logger INFO test_cre_cases.py-20 line：*********用例开始**************
+2020-08-18 14:23:23,892 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:23:23,892 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 14:23:23,892 ats-logger INFO func_requests.py-20 line：请求数据：{"username": "tobvzd", "email":"13943836@qq.com", "password":"123456", "password_confirm":"123456"}
+2020-08-18 14:23:23,893 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:23:23,893 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 14:23:25,160 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:23:25,161 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":24,"username":"tobvzd","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNCwidXNlcm5hbWUiOiJ0b2J2emQiLCJleHAiOjE1OTc4MTgyMDUsImVtYWlsIjoiMTM5NDM4MzZAcXEuY29tIn0.nEl7A1zk2f-tYYJVJbv4UXO3BSWXvVTcTjIEfMA6vWE"}
+2020-08-18 14:23:25,161 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:23:25,163 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:23:25,164 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:23:25,164 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNCwidXNlcm5hbWUiOiJ0b2J2emQiLCJleHAiOjE1OTc4MTgyMDUsImVtYWlsIjoiMTM5NDM4MzZAcXEuY29tIn0.nEl7A1zk2f-tYYJVJbv4UXO3BSWXvVTcTjIEfMA6vWE'}
+2020-08-18 14:23:25,164 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个anqwoi的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 14:23:25,164 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:23:25,164 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 14:23:25,273 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:23:25,279 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":69,"create_time":"2020-08-18T14:23:25.252237+08:00","name":"这是一个anqwoi的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-18 14:23:25,281 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:23:25,281 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:23:25,282 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:23:25,282 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNCwidXNlcm5hbWUiOiJ0b2J2emQiLCJleHAiOjE1OTc4MTgyMDUsImVtYWlsIjoiMTM5NDM4MzZAcXEuY29tIn0.nEl7A1zk2f-tYYJVJbv4UXO3BSWXvVTcTjIEfMA6vWE'}
+2020-08-18 14:23:25,282 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "接口-htjxkf", "tester": "KeYou", "project_id": 69, "desc": "这是一个描述"}
+2020-08-18 14:23:25,282 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:23:25,282 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/interfaces/
+2020-08-18 14:23:25,384 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:23:25,387 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":54,"name":"接口-htjxkf","tester":"KeYou","project":"这是一个anqwoi的项目","project_id":69,"desc":"这是一个描述","create_time":"2020-08-18T14:23:25.367589+08:00"}
+2020-08-18 14:23:25,390 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:23:25,390 ats-logger INFO test_cre_cases.py-33 line：********单个用例结束*******
+2020-08-18 14:32:50,679 ats-logger INFO test_create_pro.py-18 line：********创建项目用例的前置*********
+2020-08-18 14:32:51,206 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:32:51,206 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 14:32:51,206 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'lqhrjo', 'email': '63344923@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-18 14:32:51,207 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:32:51,207 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 14:32:52,492 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:32:52,492 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":25,"username":"lqhrjo","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNSwidXNlcm5hbWUiOiJscWhyam8iLCJleHAiOjE1OTc4MTg3NzIsImVtYWlsIjoiNjMzNDQ5MjNAcXEuY29tIn0.dLmn2IbSkGDYUYwC6Kqcn4IZaOLOYF3bAXU5Q7A7bFk"}
+2020-08-18 14:32:52,492 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:32:52,774 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:32:52,774 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNSwidXNlcm5hbWUiOiJscWhyam8iLCJleHAiOjE1OTc4MTg3NzIsImVtYWlsIjoiNjMzNDQ5MjNAcXEuY29tIn0.dLmn2IbSkGDYUYwC6Kqcn4IZaOLOYF3bAXU5Q7A7bFk'}
+2020-08-18 14:32:52,775 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "这是一个wdxfuw的项目", "leader": "可优","tester": "某人", "programmer": "某人", "publish_app": "XXX应用", "desc": "xxxx描述"}
+2020-08-18 14:32:52,775 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:32:52,775 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 14:32:52,885 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:32:52,890 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":71,"create_time":"2020-08-18T14:32:52.863287+08:00","name":"这是一个wdxfuw的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-18 14:32:52,892 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:32:52,893 ats-logger INFO test_create_pro.py-28 line：*******创建项目用例的后置**********
+2020-08-18 14:32:59,691 ats-logger INFO test_interfaces.py-20 line：********创建项目用例的前置*********
+2020-08-18 14:33:00,219 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:33:00,220 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json'}
+2020-08-18 14:33:00,220 ats-logger INFO func_requests.py-20 line：请求数据：{'username': 'hnubux', 'email': '17311338@qq.com', 'password': '123456', 'password_confirm': '123456'}
+2020-08-18 14:33:00,221 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:33:00,221 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/user/register/
+2020-08-18 14:33:00,452 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:33:00,452 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":26,"username":"hnubux","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNiwidXNlcm5hbWUiOiJobnVidXgiLCJleHAiOjE1OTc4MTg3ODAsImVtYWlsIjoiMTczMTEzMzhAcXEuY29tIn0.hO8iX8xsPr7GpkX7lS5F8zL5Uhw09nHBVWVmyM2CYPM"}
+2020-08-18 14:33:00,453 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:33:00,751 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:33:00,752 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNiwidXNlcm5hbWUiOiJobnVidXgiLCJleHAiOjE1OTc4MTg3ODAsImVtYWlsIjoiMTczMTEzMzhAcXEuY29tIn0.hO8iX8xsPr7GpkX7lS5F8zL5Uhw09nHBVWVmyM2CYPM'}
+2020-08-18 14:33:00,754 ats-logger INFO func_requests.py-20 line：请求数据：{'name': '这是一个cgcwsd的项目', 'leader': '可优', 'tester': '某人', 'programmer': '某人', 'publish_app': 'XXX应用', 'desc': 'xxxx描述'}
+2020-08-18 14:33:00,754 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:33:00,755 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/projects/
+2020-08-18 14:33:00,861 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:33:00,867 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":72,"create_time":"2020-08-18T14:33:00.840316+08:00","name":"这是一个cgcwsd的项目","leader":"可优","tester":"某人","programmer":"某人","publish_app":"XXX应用","desc":"xxxx描述"}
+2020-08-18 14:33:00,869 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>
+2020-08-18 14:33:01,138 ats-logger INFO func_requests.py-18 line：**********发送一次http请求**********
+2020-08-18 14:33:01,138 ats-logger INFO func_requests.py-19 line：请求头是：{'Content-Type': 'application/json', 'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNiwidXNlcm5hbWUiOiJobnVidXgiLCJleHAiOjE1OTc4MTg3ODAsImVtYWlsIjoiMTczMTEzMzhAcXEuY29tIn0.hO8iX8xsPr7GpkX7lS5F8zL5Uhw09nHBVWVmyM2CYPM'}
+2020-08-18 14:33:01,139 ats-logger INFO func_requests.py-20 line：请求数据：{"name": "接口-ewjcpm", "tester": "KeYou", "project_id": 72, "desc": "这是一个描述"}
+2020-08-18 14:33:01,139 ats-logger INFO func_requests.py-25 line：请求方法：POST
+2020-08-18 14:33:01,139 ats-logger INFO func_requests.py-26 line：请求地址：http://api.keyou.site:8000/interfaces/
+2020-08-18 14:33:01,255 ats-logger INFO func_requests.py-32 line：响应状态码为：201
+2020-08-18 14:33:01,258 ats-logger INFO func_requests.py-33 line：响应数据为：{"id":55,"name":"接口-ewjcpm","tester":"KeYou","project":"这是一个cgcwsd的项目","project_id":72,"desc":"这是一个描述","create_time":"2020-08-18T14:33:01.234151+08:00"}
+2020-08-18 14:33:01,261 ats-logger INFO func_requests.py-34 line：resp.text的数据类型为：<class 'str'>

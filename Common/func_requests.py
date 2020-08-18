@@ -31,15 +31,18 @@ def send_request(method, url, data=None, token=None):
 
     logger.info("响应状态码为：{}".format(resp.status_code))
     logger.info("响应数据为：{}".format(resp.text))
+    logger.info("resp.text的数据类型为：{}".format(type(resp.text)))
 
     return resp
 
 
 def __request_data(data):
     if data is not None and isinstance(data, str):
-        return json.loads(data)
-    else:
-        return data
+        if data.find("null") != -1:
+            data = data.replace("null", "None")
+        data = eval(data)
+    return data
+
 
 def __request_url(url):
     base_url = conf.get("server", "base_url")
@@ -50,6 +53,7 @@ def __request_url(url):
 
 
 if __name__ == '__main__':
+    from jsonpath import jsonpath
     login_url = "user/register/"
     login_datas = {"username": "axmaki", "email":"23526624@qq.com", "password":"123456", "password_confirm":"123456"}
     resp = send_request("POST", login_url, data=login_datas)
@@ -59,3 +63,4 @@ if __name__ == '__main__':
     # recharge_data = {"member_id": 200119, "amount": 2000}
     # resp = send_request("POST",recharge_url,recharge_data,token)
     print(resp.json())
+
