@@ -16,4 +16,4 @@ option_dir = os.path.join(base_dir, "Data/option.ini")
 cases_dir = os.path.join(base_dir, "TestCases")
 
 # 测试报告的路径
-reports_dir = os.path.join(base_dir, "Outputs/reports.html")
+reports_dir = os.path.join(base_dir, "Outputs/reports")

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#coding=UTF-8
 import unittest
 from Common.func_address import reports_dir, cases_dir
 from BeautifulReport import BeautifulReport
